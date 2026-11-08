@@ -1,0 +1,13 @@
+{
+  "name": "agent-desktop-plugin",
+  "version": "2026.11.08.01",
+  "description": "Desktop observation and automation MCP tools driven by native accessibility trees.",
+  "author": {
+    "name": "ririnto"
+  },
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "homepage": "https://github.com/ririnto/agent-desktop-plugin",
+  "repository": "https://github.com/ririnto/agent-desktop-plugin",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json"
+}

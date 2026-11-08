@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Agent Desktop MCP"
+  },
+  "name": "agent-desktop-plugin",
+  "plugins": [
+    {
+      "category": "Development",
+      "name": "agent-desktop-plugin",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./",
+        "source": "local"
+      }
+    }
+  ]
+}

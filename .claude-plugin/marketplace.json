@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "description": "Self-marketplace catalog for the agent-desktop-plugin repository.",
+  "name": "agent-desktop-plugin",
+  "owner": {
+    "name": "ririnto"
+  },
+  "plugins": [
+    {
+      "author": {
+        "name": "ririnto"
+      },
+      "category": "development",
+      "description": "Desktop observation and automation MCP tools driven by native accessibility trees.",
+      "homepage": "https://github.com/ririnto/agent-desktop-plugin",
+      "keywords": [
+        "agent-desktop",
+        "desktop-automation",
+        "accessibility",
+        "mcp"
+      ],
+      "license": "MIT",
+      "name": "agent-desktop-plugin",
+      "repository": "https://github.com/ririnto/agent-desktop-plugin",
+      "source": "./"
+    }
+  ]
+}
