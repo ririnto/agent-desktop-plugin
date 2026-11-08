@@ -36,11 +36,11 @@ Run `bun pm cache rm` when you want `bunx` to resolve the package version again.
 
 ## Install And Use
 
-Install the plugin from this repository's marketplace in Claude Code:
+Install the plugin from the sinon marketplace in Claude Code:
 
 ```sh
-claude plugin marketplace add ririnto/agent-desktop-plugin
-claude plugin install agent-desktop-plugin@agent-desktop-plugin
+claude plugin marketplace add ririnto/sinon
+claude plugin install agent-desktop-plugin@sinon
 ```
 
 For local development, load the package in a new session:
@@ -49,7 +49,7 @@ For local development, load the package in a new session:
 claude --plugin-dir .
 ```
 
-In Codex, install the plugin from this repository's marketplace and trust the MCP server.
+In Codex, install the plugin from the sinon marketplace and trust the MCP server.
 Start a new session after installation.
 
 The `desktop_status` tool reports adapter health, platform information, and permission state.
