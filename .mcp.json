@@ -4,7 +4,10 @@
     "agent-desktop": {
       "type": "stdio",
       "command": "bunx",
-      "args": ["agent-desktop", "mcp"]
+      "args": ["agent-desktop", "mcp"],
+      "env": {
+        "NODE_USE_SYSTEM_CA": "1"
+      }
     }
   }
 }

@@ -19,6 +19,7 @@ const mcpSchema = z.looseObject({
     z.looseObject({
       args: z.array(z.string()),
       command: z.string(),
+      env: z.record(z.string(), z.string()),
       type: z.string()
     })
   )
@@ -52,6 +53,7 @@ await test("both hosts declare the same plugin and the same stdio server", async
   assert.deepEqual(codexServer, claudeServer);
   assert.equal(claudeServer.command, "bunx");
   assert.equal(claudeServer.type, "stdio");
+  assert.deepEqual(claudeServer.env, { NODE_USE_SYSTEM_CA: "1" });
   assert.deepEqual(claudeServer.args, ["agent-desktop", "mcp"]);
 });
 

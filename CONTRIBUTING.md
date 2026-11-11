@@ -1,6 +1,7 @@
 # Contributing
 
-Open an issue before changing behavior.
+Open an issue when separate tracking or discussion would help.
+An issue is optional for a change whose scope and acceptance criteria are clear.
 Keep each pull request a single coherent change.
 
 ## Reproducing document validation
