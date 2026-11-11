@@ -1,6 +1,6 @@
 {
   "name": "agent-desktop-plugin",
-  "version": "2026.11.08.01",
+  "version": "2026.11.11.01",
   "description": "Desktop observation and automation MCP tools driven by native accessibility trees.",
   "author": {
     "name": "ririnto"
