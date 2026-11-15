@@ -22,6 +22,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@tsconfig/node-lts": "catalog:",
     "@types/node": "catalog:",
     "execa": "catalog:",
     "husky": "catalog:",
