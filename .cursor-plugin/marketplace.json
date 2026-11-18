@@ -1,0 +1,13 @@
+{
+  "name": "agent-desktop-plugin",
+  "owner": {
+    "name": "ririnto"
+  },
+  "plugins": [
+    {
+      "name": "agent-desktop-plugin",
+      "source": "./",
+      "description": "Desktop observation and automation MCP tools driven by native accessibility trees."
+    }
+  ]
+}
