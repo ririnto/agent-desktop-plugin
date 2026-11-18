@@ -4,7 +4,7 @@ Observe and control desktop applications through the upstream [Agent Desktop](ht
 
 ## Runtime
 
-Install Bun with `bunx` on PATH and Node.js 22.19+ on 22.x or 24.6+ on 24.x, or a newer supported major. The plugin runs `bunx agent-desktop mcp` with system certificate support.
+Install Bun with `bun` on PATH and Node.js 22.19+ on 22.x or 24.6+ on 24.x, or a newer supported major. The plugin runs `bun x agent-desktop mcp` with system certificate support.
 Use `desktop_status` to check adapter health and `desktop_permissions` to see which OS permissions are available.
 
 ## Install
